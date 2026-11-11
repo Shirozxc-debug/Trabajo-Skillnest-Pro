@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0; /*que quieres manito??*/
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1c1a21;
+}
+
+.header {
+    background-color: #121015;
+    height: 60px;
+}
+
+.navbar {
+    display:flex; 
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #ccff00;
+}
+
+.barra-busqueda input{
+    height: 35px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2A2731;
+    padding: 10px;
+    color: white;
+}
+
+.tienda{
+    background-color: #121015;
+    color: white;
+    border: none;
+    color: #A4A1AB;
+}
+
+.verde {
+    background-color: greenyellow;
+    color: black;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botones {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.color-placeholder {
+    background-color: #2A2731;
+    border: solid 1px rgb(88, 87, 87);
+    gap: 20px;
+    border-radius:6px;
+    height: 40px;
+    padding: 10px;
+    width: 300px;
+    color:white;
+}
+
+.color-a {
+    color: #CCFF00;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boton-descargas {
+    border:1px greenyellow solid;
+    background-color: #121015;
+    color:white;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.boton-descargas span{ 
+    color:grey;
+}
+
+.playlist {
+    color: white;
+    background-color: #121015;
+    border:1px white solid;
+    border-radius: 5px;
+}
+
+.seguir {
+    display: flex;
+    align-items: center;
+}
+
+.descarga {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    color:white;
+    width: 50%;
+}
+
+.texto-usuario {
+    color: white;
+}
+
+.texto-usuario p {
+    color:grey;
+}
+
+.botones button {
+    color:white;
+    background-color:#1c1a21;
+    border-radius:5px;
+    border:none;
+    font-size: 15px;
+}
