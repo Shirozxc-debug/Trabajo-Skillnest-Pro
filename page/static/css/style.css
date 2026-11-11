@@ -115,11 +115,14 @@ body {
     background-color: #121015;
     border:1px white solid;
     border-radius: 5px;
+    width: 40px;
+    height: 40px;
 }
 
 .seguir {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .descarga {
@@ -144,4 +147,9 @@ body {
     border-radius:5px;
     border:none;
     font-size: 15px;
+}
+
+.usuario img {
+    width:15%;
+    border-radius: 50%;
 }
